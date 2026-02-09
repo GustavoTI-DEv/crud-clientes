@@ -1,0 +1,28 @@
+/* App.css for styling the React application */
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    color: #4CAF50; /* Green color for headings */
+}
+
+h2 {
+    color: #2196F3; /* Blue color for subheadings */
+}
+
+@media (max-width: 768px) {
+    h1 {
+        font-size: 24px;
+    }
+    h2 {
+        font-size: 20px;
+    }
+    body {
+        padding: 10px;
+    }
+}
